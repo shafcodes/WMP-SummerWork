@@ -1,0 +1,27 @@
+h1{
+  font-family: 'Gravitas One', cursive;
+  font-size: 4em;
+  text-align: center;
+  /*text-shadow: 4px 4px 4px #dddddd;*/
+}
+
+/*font-family: 'Cormorant SC', serif;
+font-family: 'Farsan', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Shrikhand', cursive;
+font-family: 'Copse', serif;
+font-family: 'Gravitas One', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Amatic SC', cursive;*/
+
+head, body{
+  background-color: #ccccdd;
+}
+#content{
+  height: 80%;
+}
+
+/*#footer {
+  : center;
+}*/
