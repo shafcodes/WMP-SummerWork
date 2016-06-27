@@ -19,9 +19,31 @@ head, body{
   background-color: #ccccdd;
 }
 #content{
-  height: 80%;
+  width:75%;
+  height: 50vh;
+  background-color: #dfdfdf;
 }
 
 /*#footer {
   : center;
 }*/
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#uci-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contactinfo {
+  text-align: center;
+}
+
+.main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
