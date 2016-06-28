@@ -46,4 +46,19 @@ head, body{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 4vw;
+  text-align: center;
+}
+
+#demo {
+  font-family: 'Pacifico', cursive;
+  font-size: 4vw;
+  text-align: center;
+}
+
+button {
+  font-family: 'Pacifico', cursive;
+  font-size: 2vw;
+  margin: .5vw;
 }

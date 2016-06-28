@@ -27,7 +27,20 @@
   </div>
   <!-- header -->
   <div class="main" id="content">
-    <p>WMP lab game stuff fill</p>
+    <p class="main">WMP lab game stuff fill</p>
+    <script>
+      function myFunction() {
+      document.getElementById("demo").innerHTML = "Paragraph changed.";
+      var x = document.createElement("IMG");
+      x.setAttribute("src", "logo.png");
+      x.setAttribute("width", "100");
+      x.setAttribute("width", "70");
+      x.setAttribute("alt", "The Pulpit Rock");
+      document.getElementById("content").appendChild(x);
+      }
+    </script>
+    <div id="demo">A Paragraph</div>
+    <button type="button" onclick="myFunction()">Try it</button>
   </div>
   <!-- content -->
   <div class="frame" id="footer">
