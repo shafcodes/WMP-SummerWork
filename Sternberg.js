@@ -9,6 +9,6 @@ function circleofletters(number_of_letters) {
     var charstring = "char" + string(k+1)
     var element = document.createElement("h1");
     element.setAttribute("id", charstring);
-    document.getElementById(charstring).innerHTML = text[k];
+    document.getElementById(charstring).innerHTML = text[k]; //<h1 id="charstring"> text[k] </h1>
   }
 }
