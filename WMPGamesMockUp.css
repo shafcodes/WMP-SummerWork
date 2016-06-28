@@ -62,3 +62,30 @@ button {
   font-size: 2vw;
   margin: .5vw;
 }
+
+h1 span {
+  font: 15px Monaco, MonoSpace;
+  height: 100px;
+  position: absolute;
+  width: 20px;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+}
+
+.char1 { transform: rotate(0deg); }
+.char2 { transform: rotate(36deg); }
+.char3 { transform: rotate(72deg); }
+.char4 { transform: rotate(108deg); }
+.char5 { transform: rotate(144deg); }
+.char6 { transform: rotate(180deg); }
+.char7 { transform: rotate(216deg); }
+.char8 { transform: rotate(252deg); }
+.char9 { transform: rotate(288deg); }
+.char10{ transform: rotate(324deg);}
+
+#circle {
+  position: fixed; /* or absolute */
+  bottom: 50%;
+  left: 25%;
+}
