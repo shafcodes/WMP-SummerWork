@@ -1,5 +1,5 @@
 function circleofletters(number_of_letters) {
-  var degree_increments = 306/number_of_letters;
+  var degree_increments = 360/number_of_letters;
   var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
   var text = [];
   for( var i=0; i < number_of_stim; i++ ){
